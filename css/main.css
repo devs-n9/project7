@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: ex;
+    src: url(../fonts/dx.woff2);
+}
+
+.sidebar {
+    width: 204px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background-color: #242424;
+    overflow-y: auto;
+}
+
+.sidebar > .logo {
+    padding: 30px 0 50px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    text-align: center
+}
+
+.sidebar-nav a {
+    display: block;
+    padding: 11px 16px;
+    text-decoration: none;
+    border-top: 1px #2d2d2d solid;
+    color: #aaa;
+    font-family: ex;
+    font-size: 15px;
+}
+
+.sidebar-nav a:hover {
+    background-color: #111;
+}
+
+
+/*
+.sidebar-nav i:hover {
+    background-color: #f2be35;
+}
+*/
+
+.sidebar-nav a:focus {
+    color: #f2be35;
+}
+
+.sidebar-nav i {
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+    text-align: center border-radius: 20px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+}
+
+.sidebar-nav a > span {
+    padding-left: 10px;
+}
+
+.sidebar-nav li:last-child > a {
+    border-bottom: 1px #2d2d2d solid;
+}
+
+.main {
+    margin-left: 204px;
+    background-color: #eee;
+    min-height: 900px;
+}
+
+.top-nav {
+    background-color: white;
+}
+
+.top-nav > ul > li{
+    display: inline-block; 
+}
+
+.top-nav > ul > li > a {
+    padding: 16px 20px;
+    display: block;
+    color: #666;
+}
+
+.top-nav > ul > li > a:hover {
+    color: #333;
+}
+
+.top-left {
+    float: left;
+}
+
+.top-right {
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
+
+.avatar {
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    margin-right: 5px;
+}
+
+.user-info span {
+    position: relative;
+    bottom: 10px;
+    color: #666;
+    font-family: sans-serif;
+    font-size: 14px;
+    
+}
+
+.user-comp {
+    position: relative;
+    top: 10px;
+}
+
+.search {
+    border: 0;
+    padding: 10px 0 10px 50px;
+}
+
+.search:focus {
+    outline: 0;
+    background-color: #eee;
+}
+
+.search-ic {
+    position: relative;
+    left: 10px;
+}
+
+.top-title {
+    font-family: ex;
+    font-weight: 500;
+    color: #555563;
+    margin: 40px 30px;
+    font-size: 35px;
+}
+
+small {
+    font-size: 14px;
+}
