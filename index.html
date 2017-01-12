@@ -2,9 +2,48 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Project 7</title>
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-    <h1>Project7</h1>
+    <div class="container">
+        <div class="sidebar">
+            <div class="logo">sing</div>
+            <ul class="sidebar-nav">
+                <li><a href="#"> <i class="fa fa-desktop"></i> <span>Dashboard</span></a></li>
+                <li><a href="#"> <i class="fa fa-envelope"></i> <span>Email</span></a></li>
+                <li><a href="#"> <i class="fa fa-bar-chart"></i> <span>Charts</span></a></li>
+                <li><a href="#"> <i class="fa fa-user"></i> <span>Profile</span></a></li>
+            </ul>
+        </div>
+        <div class="main">
+            <nav class="top-nav">
+                <ul class="top-left">
+                    <li><a href="#"> <i class="fa fa-bars"></i></a></li>
+                    <li><a href="#"> <i class="fa fa-refresh"></i></a></li>
+                    <li><a href="#"> <i class="fa fa-times"></i></a></li>
+                    <li> 
+                        <form>
+                           <i class="fa fa-search search-ic"></i>
+                            <input class="search" type="text" name="search" placeholder="Search Dashboard">
+                        </form>
+                    </li>
+                </ul>
+                
+                <ul class="top-right">
+                    <li class="user-info"> 
+                        <div class="user-comp">
+                            <img class="avatar" src="http://demo.flatlogic.com/sing-wrapbootstrap-3.3.0/angular/assets/images/people/a5.jpg" alt=""> <span>Philip <b>Smith</b></span>
+                        </div>
+                    </li>
+                    <li><a href="#"> <i class="fa fa-cog"></i></a></li>
+                    <li><a href="#"> <i class="fa fa-globe"></i></a></li>
+                </ul>
+                <div class="clear"></div>
+            </nav>
+            <h2 class="top-title">Dashboard <small>The Lucky One</small></h2>
+        </div>
+    </div>
 </body>
 </html>
