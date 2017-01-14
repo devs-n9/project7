@@ -61,6 +61,14 @@
     -webkit-border-radius: 20px;
 }
 
+.sidebar-nav li a{
+    text-decoration: none;
+}
+
+.collapsed :focus{
+    color: #f2be35;
+}
+
 .sidebar-nav a > span {
     padding-left: 10px;
 }
@@ -152,3 +160,10 @@
 small {
     font-size: 14px;
 }
+
+
+
+
+
+
+

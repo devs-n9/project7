@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="css/bootstrap.css">
 </head>
 <body>
+    <script src="css/bower_components/jquery/dist/jquery.js"></script>
+    <script src="css/bower_components/bootstrap/dist/js/bootstrap.js"></script>
     <div class="container">
         <div class="sidebar">
             <div class="logo">sing</div>
@@ -16,6 +18,13 @@
                 <li><a href="#"> <i class="fa fa-envelope"></i> <span>Email</span></a></li>
                 <li><a href="#"> <i class="fa fa-bar-chart"></i> <span>Charts</span></a></li>
                 <li><a href="#"> <i class="fa fa-user"></i> <span>Profile</span></a></li>
+                <li><a class="collapsed" data-target="#sidebar-tables" data-toggle="collapse" data-parent="#sidebar">
+                    <i class="fa fa-table"></i>
+                           <span>Tables</span>                    
+                        <i class="toggle fa fa-angle-down"></i>
+                    </a>
+                    <ul id="sidebar-tables" class="collapse in" aria-expanded="true"><li class=""><a data-ui-sref="app.tables-basic" href="#/app/tables/basic">Tables Basic</a></li><li><a data-ui-sref="app.tables-dynamic" href="#/app/tables/dynamic">Tables Dynamic <sup class="bg-transparent text-danger fs-sm fw-bold">ng</sup></a></li></ul>
+                </li>
             </ul>
         </div>
         <div class="main">
