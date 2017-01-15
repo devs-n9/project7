@@ -92,8 +92,10 @@
 
 .main{
     background-color: #eee;
+    position: absolute;
     min-height: 900px;
-    margin-left: 190px;    
+    right: 0;
+    left: 204px;      
 }
 
 .container{
