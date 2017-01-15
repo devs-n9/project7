@@ -77,14 +77,30 @@
     border-bottom: 1px #2d2d2d solid;
 }
 
-.main {
-    margin-left: 204px;
+.sidebar-nav>li ul{
+    background-color: #313131;    
+}
+
+.sidebar-nav>li>ul>li>a{
+    padding: 5px 0 5px 40px;
+    font-size: 13px;
+    list-style: none;
+}
+
+.main{
     background-color: #eee;
     min-height: 900px;
+    margin-left: 190px;    
+}
+
+.container{
+    min-width: 100%;  
+    
 }
 
 .top-nav {
     background-color: white;
+        
 }
 
 .top-nav > ul > li{
@@ -160,6 +176,9 @@
 small {
     font-size: 14px;
 }
+
+
+
 
 
 
