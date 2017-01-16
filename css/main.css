@@ -7,7 +7,12 @@
     font-family: ex;
     src: url(../fonts/dx.woff2);
 }
-
+.textright{
+    text-align: right;
+}
+.textcenter{
+    text-align: center;
+}
 .sidebar {
     width: 204px;
     position: fixed;
@@ -213,7 +218,8 @@
     margin-right: 40px;
     margin-bottom: 25px;
     border-radius: 5px;
-   
+    
+    padding: 15px 20px;
 }
 
 .progress2::-webkit-progress-bar {
@@ -321,9 +327,11 @@
 .second-table{
     background-color: white;
     margin-left: 40px;
-    margin-right: 55%;
+    margin-right: 20px;
     margin-bottom: 25px;
-    border-radius: 5px;
+    border-radius: 5px; 
+    padding: 15px 20px;
+    top: 0;
 }
 .second-table .capt{
     font-size: 14px;
@@ -363,4 +371,60 @@
    font-size: 13px;
     font-weight: bold; 
     color: rgb(153, 153, 153);
+}
+.third-table{
+    background-color: white;
+    margin-bottom: 25px;
+    border-radius: 5px;
+    padding: 15px 20px;
+    }
+.third-table .capt{
+    font-size: 14px;
+}
+.third-table > h3{
+    font-family: ex;
+    font-weight: 300;
+    color: #555563;
+    margin-left: 15px;
+}
+.third-table > p{
+    font-family: ex;
+    font-weight: 300;
+    color: #555563;
+    margin-left: 15px;
+}
+.table-bordered{
+    width: 100%;
+           
+}
+.second-table,.twotables{
+    display: inline-block;
+    width: 46%;
+   
+}
+.fourth-table{
+    background-color: white;
+    margin-bottom: 25px;
+    border-radius: 5px;
+    padding: 15px 20px;
+    
+}
+.fourth-table .capt{
+    font-size: 14px;
+}
+.fourth-table > h3{
+    font-family: ex;
+    font-weight: 300;
+    color: #555563;
+    margin-left: 15px;
+}
+.fourth-table > p{
+    font-family: ex;
+    font-weight: 300;
+    color: #555563;
+    margin-left: 15px;
+    
+}
+ .table-bordered tr:nth-child(1){
+    background-color: #eee;
 }
