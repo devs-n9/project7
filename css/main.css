@@ -113,8 +113,7 @@
 }
 
 .user-info span {
-    position: relative;
-    bottom: 10px;
+    position: relative;    
     color: #666;
     font-family: sans-serif;
     font-size: 14px;
@@ -122,8 +121,8 @@
 }
 
 .user-comp {
-    position: relative;
-    top: 10px;
+    position: relative;    
+    display: inline-block;
 }
 
 .search {
