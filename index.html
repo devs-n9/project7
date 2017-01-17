@@ -1,50 +1,216 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Dashboard</title>
     <link rel="stylesheet" href="css/font-awesome.css">
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/bootstrap.css">
-</head>
+    <link rel="stylesheet" href="css/bootstrap.css"> </head>
+
 <body>
-    <div class="container">
+    <div class="cont">
         <div class="sidebar">
             <div class="logo">sing</div>
             <ul class="sidebar-nav">
-                <li><a href="#"> <i class="fa fa-desktop"></i> <span>Dashboard</span></a></li>
-                <li><a href="#"> <i class="fa fa-envelope"></i> <span>Email</span></a></li>
-                <li><a href="#"> <i class="fa fa-bar-chart"></i> <span>Charts</span></a></li>
-                <li><a href="#"> <i class="fa fa-user"></i> <span>Profile</span></a></li>
+                <li>
+                    <a href="#"> <i class="fa fa-desktop"></i> <span>Dashboard</span></a>
+                </li>
+                <li>
+                    <a href="#"> <i class="fa fa-envelope"></i> <span>Email</span></a>
+                </li>
+                <li>
+                    <a href="#"> <i class="fa fa-bar-chart"></i> <span>Charts</span></a>
+                </li>
+                <li>
+                    <a href="#"> <i class="fa fa-user"></i> <span>Profile</span></a>
+                </li>
             </ul>
         </div>
         <div class="main">
             <nav class="top-nav">
                 <ul class="top-left">
-                    <li><a href="#"> <i class="fa fa-bars"></i></a></li>
-                    <li><a href="#"> <i class="fa fa-refresh"></i></a></li>
-                    <li><a href="#"> <i class="fa fa-times"></i></a></li>
-                    <li> 
-                        <form>
-                           <i class="fa fa-search search-ic"></i>
-                            <input class="search" type="text" name="search" placeholder="Search Dashboard">
-                        </form>
+                    <li>
+                        <a href="#"> <i class="fa fa-bars"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"> <i class="fa fa-refresh"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"> <i class="fa fa-times"></i></a>
+                    </li>
+                    <li>
+                        <form> <i class="fa fa-search search-ic"></i>
+                            <input class="search" type="text" name="search" placeholder="Search Dashboard"> </form>
                     </li>
                 </ul>
-                
                 <ul class="top-right">
-                    <li class="user-info"> 
-                        <div class="user-comp">
-                            <img class="avatar" src="http://demo.flatlogic.com/sing-wrapbootstrap-3.3.0/angular/assets/images/people/a5.jpg" alt=""> <span>Philip <b>Smith</b></span>
-                        </div>
+                    <li class="user-info">
+                        <div class="user-comp"> <img class="avatar" src="http://demo.flatlogic.com/sing-wrapbootstrap-3.3.0/angular/assets/images/people/a5.jpg" alt=""> <span>Philip <b>Smith</b></span> </div>
                     </li>
-                    <li><a href="#"> <i class="fa fa-cog"></i></a></li>
-                    <li><a href="#"> <i class="fa fa-globe"></i></a></li>
+                    <li>
+                        <a href="#"> <i class="fa fa-cog"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"> <i class="fa fa-globe"></i></a>
+                    </li>
                 </ul>
                 <div class="clear"></div>
             </nav>
-            <h2 class="top-title">Dashboard <small>The Lucky One</small></h2>
+            <p class="top-title">
+                <p class="place">you are here > <b>Email</b></p>
+                <h2 class="top-title">Email - <b>Inbox</b></h2></p>
+            <div class="row pick">
+                <div class="col-md-12 clearfix">
+                    <button class="btn btn-danger compose">Compose</button>
+                    <div class="list">
+                        <ul class="numbers">
+                            <li> <span class="messages">Showing 1 - 10 of 96 messages</span></li>
+                            <li class="symb"><i class="fa fa-chevron-left" aria-hidden="true"></i></li>
+                            <li>1</li>
+                            <li class="symb">2</li>
+                            <li class="symb"><i class="fa fa-chevron-right" aria-hidden="true"></i></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row main-post">
+                <div class="col-md-2">
+                    <ul class="menu">
+                        <li><a href="#" class="inbox">Inbox</a></li>
+                        <li><a href="#">Starred</a></li>
+                        <li><a href="#">Sent mail</a></li>
+                        <li><a href="#">Draft</a></li>
+                        <li><a href="#">Trash</a></li>
+                    </ul>
+                    <ul class="menu">
+                        <li class="qv">Quick view</li>
+                        <li><a href="#">Work</a></li>
+                        <li><a href="#">Private</a></li>
+                        <li><a href="#">Saved</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-10 post">
+                    <div class="row main-post">
+                        <div class="col-md-12 clearfix">
+                            <ul class="pick-but">
+                                <li>
+                                    <div class="dropdown">
+                                        <button class="btn btn-default dropdown-toggle act-but" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true"> Select <span class="caret"></span> </button>
+                                        <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                                            <li><a href="#">All</a></li>
+                                            <li><a href="#">None</a></li>
+                                            <li><a href="#">Read</a></li>
+                                            <li><a href="#">Unread</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="dropdown">
+                                        <button class="btn btn-default dropdown-toggle act-but" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true"> Actions <span class="caret"></span> </button>
+                                        <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                                            <li><a href="#">Reply</a></li>
+                                            <li><a href="#">Forward</a></li>
+                                            <li><a href="#">Archive</a></li>
+                                            <li><a href="#">Separated link</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>
+                            <input type="search" name="Search" placeholder="Search" class="search2"> </div>
+                        <div class="col-md-12">
+                            <ul class="message">
+                                <li class="none">
+                                    <input type="checkbox">
+                                </li>
+                                <li>
+                                    <div class="row">
+                                        <div class="col-md-1">
+                                            <input type="checkbox">
+                                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                                        </div>
+                                        <div class="col-md-5">Philip Horbacheuski</div>
+                                        <div class="col-md-6">Hi, Welcome to Google Mail</div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="row">
+                                        <div class="col-md-1">
+                                            <input type="checkbox">
+                                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                                        </div>
+                                        <div class="col-md-5">Philip Horbacheuski</div>
+                                        <div class="col-md-6">Hi, Welcome to Google Mail</div>
+                                    </div>
+                                <li>
+                                    <div class="row">
+                                        <div class="col-md-1">
+                                            <input type="checkbox">
+                                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                                        </div>
+                                        <div class="col-md-5">Philip Horbacheuski</div>
+                                        <div class="col-md-6">Hi, Welcome to Google Mail</div>
+                                    </div>
+                                <li>
+                                    <div class="row">
+                                        <div class="col-md-1">
+                                            <input type="checkbox">
+                                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                                        </div>
+                                        <div class="col-md-5">Philip Horbacheuski</div>
+                                        <div class="col-md-6">Hi, Welcome to Google Mail</div>
+                                    </div>
+                                <li>
+                                    <div class="row">
+                                        <div class="col-md-1">
+                                            <input type="checkbox">
+                                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                                        </div>
+                                        <div class="col-md-5">Philip Horbacheuski</div>
+                                        <div class="col-md-6">Hi, Welcome to Google Mail</div>
+                                    </div>
+                                <li>
+                                    <div class="row">
+                                        <div class="col-md-1">
+                                            <input type="checkbox">
+                                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                                        </div>
+                                        <div class="col-md-5">Philip Horbacheuski</div>
+                                        <div class="col-md-6">Hi, Welcome to Google Mail</div>
+                                    </div>
+                                <li>
+                                    <div class="row">
+                                        <div class="col-md-1">
+                                            <input type="checkbox">
+                                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                                        </div>
+                                        <div class="col-md-5">Philip Horbacheuski</div>
+                                        <div class="col-md-6">Hi, Welcome to Google Mail</div>
+                                    </div>
+                                <li>
+                                    <div class="row">
+                                        <div class="col-md-1">
+                                            <input type="checkbox">
+                                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                                        </div>
+                                        <div class="col-md-5">Philip Horbacheuski</div>
+                                        <div class="col-md-6">Hi, Welcome to Google Mail</div>
+                                    </div>
+                                <li>
+                                    <div class="row">
+                                        <div class="col-md-1">
+                                            <input type="checkbox">
+                                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                                        </div>
+                                        <div class="col-md-5">Philip Horbacheuski</div>
+                                        <div class="col-md-6">Hi, Welcome to Google Mail</div>
+                                    </div>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
 </body>
+
 </html>

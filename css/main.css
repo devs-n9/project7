@@ -145,10 +145,122 @@
     font-family: ex;
     font-weight: 500;
     color: #555563;
-    margin: 40px 30px;
+    margin: 15px 15px 10px;
     font-size: 35px;
 }
 
 small {
     font-size: 14px;
+}
+.place{
+    margin-top: 30px;
+    margin-left: 20px;
+    color: #666;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+.main> .pick{
+    margin-right: 1px;
+}
+.col-md-12 > .compose{
+    float: left;
+    padding: 8px 41px;
+    margin-left: 15px;
+    background-color: #dd5826;
+    border-radius: 3px;
+}
+.list{
+    float: right;
+    display: inline-block;
+}
+.numbers > li {
+    display: inline-block;
+    padding: 8px 12px;
+    color: #666;
+    border-radius: 5px;
+}
+.messages{
+    padding: 8px 12px;
+    border-right: 1px #999 solid;
+}
+.symb{
+    background-color: #fff;
+}
+.symb:hover{
+    background-color: #ddd;
+    cursor:pointer;
+}
+.menu {
+     list-style-type: none;
+}
+.menu > li >a{
+    display: block;
+    padding: 10px 10px;
+    margin: 1px 0px 1px 15px;
+    border-radius: 3px;
+    text-decoration: none;
+    color: #888;
+}
+.menu > li >a:hover{
+    background-color: #dddddd;
+}
+.inbox{
+    background-color: #dddddd;
+}
+.qv{
+    padding: 10px 10px;
+    margin: 1px 0px 1px 4px;
+    text-transform: uppercase;
+}
+.post{
+background-color: #fff;
+    border-radius: 3px;
+}
+.pick-but{
+    float: left;
+}
+.pick-but > li{
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+    border-radius: 4px;
+}
+ .dropdown > .act-but{
+    padding: 3px;
+     border: 1px #ddd solid;
+     background-color: #eee;
+}
+.search2{
+    float: right;
+    text-decoration: none;
+    background-color: #eee;
+    margin-top: 10px;
+    border-radius: 4px;
+    padding: 2px 0px 2px 10px ;
+    border: 1px #ddd solid;
+}
+ .main> .main-post{
+    margin-right: 15px;
+}
+.message{
+    list-style-type: none;
+}
+.message > li{
+    padding: 5px;
+    border-bottom: 1px #ddd solid;
+}
+.message > li:hover{
+    background-color: #eee;
+}
+.message > .none:hover{
+    background-color: #fff;
+}
+.message > li > input{
+    background-color: #555;
+}
+.fa-star-o:focus{
+    background-color: gold;
+}
+.fa-star-o:hover{
+    color: gold;
 }
